@@ -3,7 +3,8 @@
     "displayName": "templatejs",
     "description": "syntax hightlight for templatejs",
     "version": "0.0.1",
-    "repository": "git@github.com:yanhaijing/template-vscode.git",
+    "publisher": "yanhaijing1234",
+    "repository": "https://github.com/yanhaijing/template-vscode",
     "private": true,
     "engines": {
         "vscode": "^1.47.0"

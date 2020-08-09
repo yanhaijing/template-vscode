@@ -1,6 +1,6 @@
 # [template-vscode](https://github.com/yanhaijing/template-vscode)
 
-[template.js](https://github.com/yanhaijing/template.js)的vscode插件。
+[template.js](https://github.com/yanhaijing/template.js)的vscode插件，[点击这里查看](https://marketplace.visualstudio.com/items?itemName=yanhaijing1234.templatejs)
 
 ## Features
 
