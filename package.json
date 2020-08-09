@@ -1,0 +1,27 @@
+{
+    "name": "templatejs",
+    "displayName": "templatejs",
+    "description": "syntax hightlight for templatejs",
+    "version": "0.0.1",
+    "repository": "git@github.com:yanhaijing/template-vscode.git",
+    "private": true,
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "templatejs",
+            "aliases": ["templatejs", "template", "template.js"],
+            "extensions": [".tmpl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "templatejs",
+            "scopeName": "source.tmpl",
+            "path": "./syntaxes/templatejs.tmLanguage.json"
+        }]
+    }
+}

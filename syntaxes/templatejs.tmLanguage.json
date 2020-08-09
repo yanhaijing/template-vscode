@@ -1,0 +1,43 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "templatejs",
+    "patterns": [
+        {
+            "include": "#template"
+        },
+        {
+            "include": "text.html.basic"
+        }
+    ],
+    "repository": {
+        "template": {
+            "patterns": [
+                {
+                    "begin": "(<([%#]))(((\\w+)?(:))?(=))?",
+                    "end": "(\\2>)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "support.type.templatejs"
+                        },
+                        "5": {
+                            "name": "support.function.templatejs"
+                        },
+                        "6": {
+                            "name": "keyword.control.templatejs"
+                        },
+                        "7": {
+                            "name": "keyword.operator.templatejs"
+                        }
+                    },
+                    "endCaptures": {
+                        "1": {
+                            "name": "support.type.templatejs"
+                        }
+                    },
+                    "name": "template.templatejs"
+                }
+            ]
+        }
+    },
+    "scopeName": "source.tmpl"
+}
