@@ -39,8 +39,9 @@ Highlighting effect
 [TODO.md](https://github.com/yanhaijing/template-vscode/blob/master/TODO.md)
 
 ## Contributor guide
+开发时，直接运行当前项目，即可打开一个新编辑器，新编辑器里面会自动加载当前插件
 
-Install vsce
+How to publish, to install vsce
 
 ```bash
 npm install -g vsce
