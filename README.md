@@ -1,14 +1,14 @@
 # [template-vscode](https://github.com/yanhaijing/template-vscode)
 
-[template.js](https://github.com/yanhaijing/template.js)的vscode插件，[点击这里查看](https://marketplace.visualstudio.com/items?itemName=yanhaijing1234.templatejs)
+[template.js](https://github.com/yanhaijing/template.js) plugin for vscode, [click here](https://marketplace.visualstudio.com/items?itemName=yanhaijing1234.templatejs) to install
 
 ## Features
 
-- 语法高亮
+- Syntax highlight
 
-支持templatejs的模板语法高亮
+Support syntax highlight for template.js
 
-下面示例如下
+Source code example
 
 ```
 <h2>我的待办</h2>
@@ -28,7 +28,7 @@
 <a href="#" class="btn btn-dark add-todo">新增</a>
 ```
 
-高亮后的效果
+Highlighting effect
 
 ![](./img/demo.png)
 
@@ -38,4 +38,24 @@
 ## TODO
 [TODO.md](https://github.com/yanhaijing/template-vscode/blob/master/TODO.md)
 
-**Enjoy!**
+## Contributor guide
+
+Install vsce
+
+```bash
+npm install -g vsce
+```
+
+Publish to vscode plugin store
+
+```bash
+vsce login # 首次需要登录
+vsce publish # 发布插件
+vsce publish [major|minor|patch|2.0.1] # 发布插件
+
+vsce package # 打包插件，生成.vsix包，可被vscode直接安装
+```
+
+## Reference
+
+- [vscode插件开发](https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/)
